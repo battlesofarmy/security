@@ -24,10 +24,10 @@ export default function AboutUs() {
       <CommonBanner img={bannerImg} title={"About Us"} />
 
       <section className="py-20">
-        <div className="container grid grid-cols-2 gap-8">
+        <div className="container md:grid grid-cols-2 gap-8">
           <Image className="w-full" alt="image" src={img1} />
           <div>
-            <h2 className="text-4xl">
+            <h2 className="text-4xl md:mt-0 mt-4">
               E4 Security, Ready to provide your security needs
             </h2>
             <p className="py-2">
@@ -64,7 +64,7 @@ export default function AboutUs() {
       </section>
 
       <section className="py-20">
-        <div className="container grid grid-cols-2 gap-8">
+        <div className="container md:grid grid-cols-2 gap-8">
           <div>
             <h2 className="text-4xl mb-3">Why Does E4 Security Stand Out?</h2>
             <p className="py-2">

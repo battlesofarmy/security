@@ -23,18 +23,18 @@ export default function Home() {
         <div className="py-24 bg-black bg-opacity-50 text-white text-center">
           <div className="container">
             <h2 className="text-5xl">E4 Security, Inc.</h2>
-            <p className="w-3/5 mx-auto my-5">
+            <p className="md:w-3/5 mx-auto my-5">
               Providing high quality personalized and professional security
               services throughout the Bay Area and beyond. Both clients and
               employees are pleased with E4 Security.
             </p>
 
-            <div className="flex gap-10 text-5xl justify-center pt-4 text-primary-dark">
+            <div className="flex gap-10 text-4xl md:text-5xl justify-center md:pt-4 text-primary-dark">
               <MdOutlineSecurity />
               <GrShieldSecurity />
               <RiSecurePaymentFill />
             </div>
-            <div className="pt-10">
+            <div className="md:pt-10 mt-3">
               <p className="pb-5 text-lg">
                 E4 Security, Inc. is currently licensed in the following states:
               </p>
@@ -54,7 +54,7 @@ export default function Home() {
       {/* startup section  */}
       <section className="py-16 bg-[#F3F5FA]">
         <div className="container">
-          <div className="grid grid-cols-2 place-items-center gap-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 place-items-center gap-8">
             {/* Left side  */}
             <div>
               <h2 className="text-4xl">
@@ -81,14 +81,14 @@ export default function Home() {
         <div className="container py-20 text-center">
           <h4 className="text-primary-dark">WHAT WE OFFER</h4>
           <h2 className="text-4xl py-4">OUR SERVICES</h2>
-          <p className="w-3/5 mx-auto">
+          <p className="md:w-3/5 mx-auto">
             E4 Security provides a wide array of high quality services. We
             deliver high quality services with a distinct personal touch. Our
             clients see and feel our dedication to protect them.
           </p>
         </div>
         {/* service items  */}
-        <div className="grid grid-cols-4 text-center">
+        <div className="md:grid md:grid-cols-4 text-center">
           {/* srevice 1 */}
           <div className="bg-gray-900 py-10 text-white px-4">
             <h2 className="text-2xl my-3">Customized Security Plans</h2>
@@ -151,7 +151,7 @@ export default function Home() {
           {/* top part  */}
           <div className="text-center">
             <h2 className="text-4xl my-4">Market solutions</h2>
-            <p className="w-3/5 mx-auto">
+            <p className="md:w-3/5 mx-auto">
               These are some of the areas where E4 Security provides Market
               Solutions. We will work with you to develop and customized a plan
               to fulfill your security needs.
@@ -166,7 +166,7 @@ export default function Home() {
 
       {/* CC tv & review section  */}
       <section>
-        <div className="grid grid-cols-2 place-items-center">
+        <div className="md:grid md:grid-cols-2 place-items-center">
           {/* left  */}
           <Image alt="bussiness" src={cctvImg}/>
           {/* right  */}

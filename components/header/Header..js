@@ -16,10 +16,6 @@ const navigation = [
   { name: "Contact Us", href: "/contact", current: false },
 ];
 
-// function classNames(...classes) {
-//   return classes.filter(Boolean).join(" ");
-// }
-
 export default function Header() {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -96,21 +92,18 @@ export default function Header() {
                 </div>
               </div>
             </div>
-            <button className="bg-primary-dark py-3 font-medium ml-3 px-5 text-white text-sm">
+
+
+            <button  onClick={() => setIsModalOpen((prev) => !prev)} className="bg-primary-dark py-3 font-medium ml-10  md:ml-5 px-5 text-white text-sm">
               {/* Modal Trigger */}
-            <button
-              className="btn"
-              onClick={() => setIsModalOpen((prev) => !prev)}
-            >
               GET A QUOTE
-            </button>
             </button>
 
             
 
             {/* Dialog Modal */}
             <dialog id="my_modal_3" className="modal">
-              <div className="modal-box p-10">
+              <div className="modal-box p-5 md:p-10">
                 <form method="dialog">
                   {/* if there is a button in form, it will close the modal */}
                   <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2 font-2xl">

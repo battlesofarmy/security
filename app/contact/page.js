@@ -26,7 +26,7 @@ export default function Contact() {
       <div className="text-base text-gray-900">
         <div className="mx-auto w-full sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl">
           <div className="mx-2 pt-12 text-center md:mx-auto md:w-2/3 md:pb-12">
-            <h2 className="mb-4 sm:text-2xl xl:text-4xl font-medium">
+            <h2 className="mb-4 text-3xl md:text-4xl font-medium">
               Contact us fahim
             </h2>
             <div className="text-lg sm:text-xl xl:text-xl">

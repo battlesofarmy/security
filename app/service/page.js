@@ -35,9 +35,9 @@ export default function Services() {
         </div>
       </section>
 
-      <section className="py-20 bg-[#F5F6FA]">
+      <section className="py-20 mb-32 md:mb-0 bg-[#F5F6FA]">
         <div className="container">
-          <div className="grid grid-cols-5 gap-10">
+          <div className="grid md:grid-cols-5 gap-10">
             <div className="col-span-3">
               <h2 className="text-3xl mb-5">WHY DOES E4 SECURITY STAND OUT</h2>
               <p>At E4 Security, we deliver high quality services with a distinct personal touch. Our clients see and feel our dedication to protect them, their assets and premises as if it were our own. Our priority is the security goals of our clients through clear and continuous communication; reliability and veracity</p>
